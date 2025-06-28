@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trekking in Pune</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: gray;
+            width: 160px;
+            height: 100vh;
+            padding: 30px 0;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            position: fixed;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            color: gold;
+        }
+        .main {
+            margin-left: 160px;
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://www.adventurush.com/wp-content/uploads/2024/04/Picture1-4.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .hero-text {
+            background: antiquewhite;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: darkgreen;
+            text-align: center;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin: 20px 0;
+        }
+        .trek-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px gray;
+            transition: transform 0.2s;
+        }
+        .trek-card:hover {
+            transform: translateY(-5px);
+        }
+        .trek-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .trek-name {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .contact-info {
+            background: antiquewhite;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="main">
+        <section id="home">
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Trekking in Pune</h1>
+                    <p>
+                        Pune, nestled in the Sahyadri mountains, is a paradise for trekking enthusiasts. The region boasts a variety of forts and hills, each offering unique challenges and breathtaking views.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Featured Treks</h2>
+            <div class="gallery-grid">
+                <div class="trek-card">
+                    <a href="C:\Users\HP\Desktop\project\css\lohgad.html"><img src="https://media2.thrillophilia.com/images/photos/000/263/277/original/1589504236_A10.jpg" alt="Lohgad Trek"></a>
+                    <div class="trek-name">Lohgad Trek</div>
+                </div>
+                <div class="trek-card">
+                    <a href="C:\Users\HP\Desktop\project\css\rajgad.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSADxdIPlyBHhsM4L_WQHU0kNW2SQa4fFliCw&s" alt="Rajgad Trek"></a>
+                    <div class="trek-name">Rajgad Trek</div>
+                </div>
+                <div class="trek-card">
+                    <a href="C:\Users\HP\Desktop\project\css\rajmachi.html"><img src="https://explorersgroup.in/web/wp-content/uploads/2018/08/Rajmachi.png" alt="Rajmachi Trek"></a>
+                    <div class="trek-name">Rajmachi Trek</div>
+                </div>
+                <div class="trek-card">
+                    <a href="C:\Users\HP\Desktop\project\css\vasota.html"><img src="https://www.treksandtrails.org/system/images/000/366/116/ad917c27704f8eac9a87151445678cd0/original/Vasota_Fort-Shiv-Sagar-Lake.jpg?1574038407" alt="Vasota Trek"></a>
+                    <div class="trek-name">Vasota Trek</div>
+                </div>
+                <div class="trek-card">
+                    <a href="C:\Users\HP\Desktop\project\css\sinhgad.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3-e50sreeWQXX5aUWO-GWtznOVNTViWX2w&s" alt="Sinhgad Fort Trek"></a>
+                    <div class="trek-name">Sinhgad Fort Trek</div>
+                </div>
+                <div class="trek-card">
+                    <a href="C:\Users\HP\Desktop\project\css\kalsubai.html"><img src="https://i.ytimg.com/vi/lrsSS8tejj4/maxresdefault.jpg" alt="Kalsubai Trek"></a>
+                    <div class="trek-name">Kalsubai Trek</div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Welcome to "Best Trekking Places to Visit in Pune"! This website highlights the most beautiful and adventurous trekking spots around Pune, perfect for both beginners and experienced trekkers. Our mission is to inspire you to explore the Sahyadri mountains and discover the natural beauty and rich history of the region.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Name:</strong> Siddhesh Diwate</p>
+                <p><strong>Email:</strong> siddheshdiwate245@gmail.com</p>
+                <p><strong>Phone:</strong> +91 1122334455</p>
+                <p><strong>Address:</strong> Pune, Maharashtra, India</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/siddhesh-diwate-901889368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/siddheshdiwate</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/siddhesh_diwate_01?igsh=dGE4MWdjZXYwdmZl" target="_blank">@siddhesh_diwate_01</a></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
